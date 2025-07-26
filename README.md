@@ -1,12 +1,68 @@
-# React + Vite
+# Sorting Visualizer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A web application to visualize and understand popular sorting algorithms and related data structure algorithms. Built with React and Vite, this project provides interactive, animated visualizations to help users learn how sorting algorithms work step by step.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Visualize multiple sorting algorithms (e.g., Bubble Sort, Merge Sort, etc.)
+- Step-by-step animation of sorting processes
+- Adjustable array size and speed controls
+- Interactive UI for selecting algorithms
+- Additional algorithm visualizations (e.g., Kadane's, Dijkstra's)
+- Exportable reports and plots (Python integration)
 
-## Expanding the ESLint configuration
+## Screenshots
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+> _Add screenshots or GIFs here to showcase the UI and visualizations._
+
+## Getting Started
+
+### Prerequisites
+- Node.js (v14 or higher recommended)
+- npm or yarn
+
+### Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/AnshumanDas001/Data-Structures-and-algortihm-visualiser.git
+   cd Data-Structures-and-algortihm-visualiser
+   ```
+2. **Install dependencies:**
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+3. **Start the development server:**
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+4. **Open your browser:**
+   Visit `http://localhost:5173` (or the port shown in your terminal)
+
+## Project Structure
+
+- `src/Algorithms/` — Sorting algorithm implementations
+- `src/Components/` — React components for UI and algorithm cards
+- `src/assets/` — Static assets (images, icons)
+- `src/images/` — Algorithm illustration images
+- `src/Components/iv_skew_plot.py` — Python script for generating PDF plots/reports
+
+## Technologies Used
+
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [ReportLab](https://www.reportlab.com/) (Python, for PDF generation)
+- [matplotlib](https://matplotlib.org/) (Python, for plotting)
+- [nptdms](https://nptdms.readthedocs.io/) (Python, for TDMS file handling)
+
+## Contributing
+
+Contributions are welcome! Please open issues or pull requests for improvements, bug fixes, or new features.
+
+## License
+
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
