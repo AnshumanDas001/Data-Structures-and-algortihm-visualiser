@@ -11,9 +11,6 @@ A web application to visualize and understand popular sorting algorithms and rel
 - Additional algorithm visualizations (e.g., Kadane's, Dijkstra's)
 - Exportable reports and plots (Python integration)
 
-## Screenshots
-
-> _Add screenshots or GIFs here to showcase the UI and visualizations._
 
 ## Getting Started
 
